@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -23,7 +24,6 @@ namespace Tests
                 _scoreRepository = new LocalDocumentDBRepository<Score>(scoresData);
             }
         }
-
         [TestCase("Milky Way")]
         [TestCase("Andromeda")]
         [TestCase("Pinwheel")]
